@@ -1,11 +1,12 @@
 from typing import List
 from fastapi import FastAPI
+from prometheus_fastapi_instrumentator import Instrumentator
 
 from app import services
 from app.schema import UserIn, BaseResponse, UserListOut
 
 app = FastAPI()
-
+Instrumentator().instrument(app).expose(app)
 
 @app.get("/")
 async def index():
