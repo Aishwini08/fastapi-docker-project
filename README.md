@@ -122,6 +122,26 @@ Application is deployed on an EC2 instance (Ubuntu 22.04, t2.medium).
 
 ---
 
+## Screenshots
+
+### Swagger UI
+![Swagger UI](screenshots/swagger-ui.png)
+
+### Jenkins Pipeline
+![Jenkins](screenshots/jenkins-pipeline.png)
+
+### Grafana Dashboard
+![Grafana](screenshots/grafana-dashboard.png)
+
+### Prometheus
+![Prometheus](screenshots/prometheus-targets.png)
+
+### Data
+![Prometheus](screenshots/data.png)
+
+
+---
+
 ## Author
 
 **Aishwini Pillai** — [@Aishwini08](https://github.com/Aishwini08)
